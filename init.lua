@@ -148,3 +148,13 @@ minetest.register_node("abc:left", {
 	description = "left arrow",
 	tiles = {"left.png"}
 })
+
+minetest.register_node("abc:exclamation_mark", {
+	description = "exclamation mark",
+	tiles = {"exclamation_mark.png"}
+})
+
+minetest.register_node("abc:question_mark", {
+	description = "question_mark",
+	tiles = {"question_mark.png"}
+})
