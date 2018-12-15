@@ -129,23 +129,22 @@ minetest.register_node("abc:z", {
 })
 
 minetest.register_node("abc:down", {
-	description = "down arrow",
-	tiles = {"down.png"}
+	description = "arrow down",
+	tiles = {"test.png"}
 })
 
-
 minetest.register_node("abc:up", {
-	description = "up arrow",
+	description = "arrow up",
 	tiles = {"up.png"}
 })
 
 minetest.register_node("abc:right", {
-	description = "right arrow",
+	description = "arrow right",
 	tiles = {"right.png"}
 })
 
 minetest.register_node("abc:left", {
-	description = "left arrow",
+	description = "arrow left",
 	tiles = {"left.png"}
 })
 
